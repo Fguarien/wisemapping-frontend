@@ -2223,6 +2223,212 @@
       "value": "Будь ласка, зачекайте..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "Опишіть потрібну ментальну карту. ШІ підготує її як нову карту, яку потім можна редагувати."
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "Створити"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 0,
+      "value": "Надіслати до "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " і створити"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "Надіслати назовні й створити"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "Модель"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "Відкрити карту"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "Про що має бути карта?"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "ШІ-копілот"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "Створення може тривати до хвилини."
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "Зовнішньо — надсилається до "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "Зовнішньо"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Зовнішньо — залишає вашу мережу"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "Локально — залишається у вашій мережі"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "Локально"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 0,
+      "value": "Створено зовнішньо моделлю "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " у "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Створено зовнішньо моделлю "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 0,
+      "value": "Створено локально моделлю "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ": ваш запит залишився у вашій мережі."
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " заявлено як локальну, але це не вдалося перевірити: відповідь надійшла від "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 0,
+      "value": "На запит до "
+    },
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " відповіла "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " замість очікуваної моделі. Куди пішов ваш запит, перевірити не вдалося."
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 0,
+      "value": "Створено моделлю "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ". Де вона працювала, перевірити не вдалося."
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "Створити ментальну карту за допомогою ШІ-копілота"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2917,6 +3123,16 @@
       "value": "Не вдалося виконати автентифікацію OAuth. Будь ласка, спробуйте ще раз або скористайтеся іншим способом входу."
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 0,
+      "value": "Увійти через "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3455,6 +3671,16 @@
       "value": "Прізвище"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 0,
+      "value": "Зареєструватися через "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3775,26 +4001,6 @@
     {
       "type": 0,
       "value": "Назва обов'язкова"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 0,
-      "value": "Увійти через "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 0,
-      "value": "Зареєструватися через "
-    },
-    {
-      "type": 1,
-      "value": "provider"
     }
   ]
 }

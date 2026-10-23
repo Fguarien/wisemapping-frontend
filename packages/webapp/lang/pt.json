@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "A resposta do login não incluiu um código nem um token."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "Gerar um mapa mental com o Copiloto de IA"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "Local — fica na sua rede"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "Externo — enviado para {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "Externo — sai da sua rede"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "Local"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "Externo"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} está declarado como local, mas não foi possível verificar: a resposta veio de {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "{model} foi atendido por {served} em vez do modelo esperado. Não foi possível verificar para onde foi o seu pedido."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "Gerado localmente por {served}: o seu pedido ficou na sua rede."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "Gerado externamente por {served}, em {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "Gerado externamente por {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "Gerado por {served}. Não foi possível verificar onde foi executado."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "Copiloto de IA"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "Abrir o mapa"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "Gerar"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "Enviar para {provider} e gerar"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "Enviar para fora e gerar"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "Descreva o mapa mental que pretende. A IA redige-o como um novo mapa que poderá editar depois."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "Modelo"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "Sobre o que deve ser o mapa?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "A geração pode demorar até um minuto."
   }
 }

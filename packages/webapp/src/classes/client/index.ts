@@ -156,6 +156,39 @@ export type Oauth2CallbackResult = {
   syncCode?: string;
 };
 
+/** Where a copilot model runs: in the instance's own network, or at a third party. */
+export type CopilotLocality = 'local' | 'external';
+
+/** Where the answer was observed to come from, once generated. */
+export type CopilotActualLocality = CopilotLocality | 'unverified';
+
+export type CopilotModel = {
+  id: string;
+  label: string;
+  locality: CopilotLocality;
+  /** Who runs an external model, e.g. "OpenAI"; empty when not configured. */
+  provider: string;
+};
+
+export type CopilotMapRequest = {
+  prompt: string;
+  /** ISO 639-1 code of the map language: the UI locale. */
+  language?: string;
+  /** One of the configured models; the server default when absent. */
+  model?: string;
+};
+
+export type CopilotMapResult = {
+  id: number;
+  title: string;
+  model: CopilotModel;
+  /** The `model` field of the completion: the deployment that actually answered. */
+  servedModel?: string;
+  actualLocality: CopilotActualLocality;
+  /** The answer did not come from where the model was declared to run, or this could not be checked. */
+  routingWarning: boolean;
+};
+
 export type ForgotPasswordResult = {
   action: 'EMAIL_SENT' | 'OAUTH2_USER';
 };
@@ -166,6 +199,7 @@ interface Client {
   deleteAccount(): Promise<void>;
   importMap(model: ImportMapInfo): Promise<number>;
   createMap(map: BasicMapInfo): Promise<number>;
+  createMapWithCopilot(request: CopilotMapRequest): Promise<CopilotMapResult>;
   deleteMaps(ids: number[]): Promise<void>;
   deleteMap(id: number): Promise<void>;
   /** Updates the title and/or the description: a field left out is not sent. */

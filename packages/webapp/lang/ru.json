@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "В ответе на вход нет ни кода, ни токена."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "Создать интеллект-карту с помощью ИИ-копилота"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "Локально — остаётся в вашей сети"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "Внешне — отправляется в {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "Внешне — покидает вашу сеть"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "Локально"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "Внешне"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} заявлена как локальная, но это не удалось проверить: ответ пришёл от {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "На запрос к {model} ответила {served} вместо ожидаемой модели. Куда ушёл ваш запрос, проверить не удалось."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "Создано локально моделью {served}: ваш запрос остался в вашей сети."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "Создано внешне моделью {served} у {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "Создано внешне моделью {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "Создано моделью {served}. Где она работала, проверить не удалось."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "ИИ-копилот"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "Открыть карту"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "Создать"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "Отправить в {provider} и создать"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "Отправить вовне и создать"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "Опишите нужную интеллект-карту. ИИ подготовит её как новую карту, которую затем можно редактировать."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "Модель"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "О чём должна быть карта?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "Создание может занять до минуты."
   }
 }

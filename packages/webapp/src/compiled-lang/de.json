@@ -2201,6 +2201,208 @@
       "value": "Bitte warten ..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "Beschreibe die gewünschte Mindmap. Die KI entwirft sie als neue Mindmap, die du anschließend bearbeiten kannst."
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "Erstellen"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 0,
+      "value": "An "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " senden und erstellen"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "Nach außen senden und erstellen"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "Modell"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "Mindmap öffnen"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "Worum soll es in der Mindmap gehen?"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "KI-Copilot"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "Die Erstellung kann bis zu einer Minute dauern."
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "Extern — gesendet an "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "Extern"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Extern — verlässt dein Netzwerk"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "Lokal — bleibt in deinem Netzwerk"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "Lokal"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 0,
+      "value": "Extern erstellt von "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ", bei "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Extern erstellt von "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 0,
+      "value": "Lokal erstellt von "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ": Deine Anfrage ist in deinem Netzwerk geblieben."
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " ist als lokal angegeben, das konnte aber nicht überprüft werden: Die Antwort kam von "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " wurde von "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " statt vom erwarteten Modell beantwortet. Wohin deine Anfrage ging, konnte nicht überprüft werden."
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 0,
+      "value": "Erstellt von "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ". Wo es lief, konnte nicht überprüft werden."
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "Mindmap mit dem KI-Copiloten erstellen"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2861,6 +3063,20 @@
       "value": "Die OAuth-Authentifizierung ist fehlgeschlagen. Bitte versuche es erneut oder verwende eine andere Anmeldemethode."
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 0,
+      "value": "Mit "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " anmelden"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3399,6 +3615,20 @@
       "value": "Nachname"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 0,
+      "value": "Mit "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " registrieren"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3719,34 +3949,6 @@
     {
       "type": 0,
       "value": "Titel ist erforderlich"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 0,
-      "value": "Mit "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " anmelden"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 0,
-      "value": "Mit "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " registrieren"
     }
   ]
 }

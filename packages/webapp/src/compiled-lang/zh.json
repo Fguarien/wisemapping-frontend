@@ -2186,6 +2186,208 @@
       "value": "请等待。。。"
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "描述您想要的思维导图。AI 会将其起草为新导图，之后您可以编辑。"
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "生成"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 0,
+      "value": "发送至 "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " 并生成"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "发送到外部并生成"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "模型"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "打开导图"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "导图的主题是什么？"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "AI 助手"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "生成可能需要长达一分钟。"
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "外部 — 发送至 "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "外部"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "外部 — 离开您的网络"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "本地 — 留在您的网络中"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "本地"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 0,
+      "value": "由 "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " 的 "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " 在外部生成。"
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 0,
+      "value": "由 "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " 在外部生成。"
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 0,
+      "value": "由 "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " 在本地生成：您的请求留在了您的网络中。"
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " 声明为本地模型，但无法验证：响应来自 "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "。"
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " 由 "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " 而非预期模型响应。无法验证您的请求去向。"
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 0,
+      "value": "由 "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " 生成。无法验证其运行位置。"
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "使用 AI 助手生成思维导图"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2839,6 +3041,20 @@
       "value": "OAuth 身份验证失败。请重试或使用其他登录方式。"
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 0,
+      "value": "使用 "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " 登录"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3377,6 +3593,20 @@
       "value": "姓氏"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 0,
+      "value": "使用 "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " 注册"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3697,34 +3927,6 @@
     {
       "type": 0,
       "value": "标题是必需的"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 0,
-      "value": "使用 "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " 登录"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 0,
-      "value": "使用 "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " 注册"
     }
   ]
 }

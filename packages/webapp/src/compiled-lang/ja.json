@@ -2178,6 +2178,192 @@
       "value": "お待ちください..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "作成したいマインドマップを説明してください。AI が新しいマップの下書きを作成し、後から編集できます。"
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "作成"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " に送信して作成"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "外部に送信して作成"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "モデル"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "マップを開く"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "マップのテーマは何ですか？"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "AI コパイロット"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "作成には最大 1 分かかることがあります。"
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "外部 — "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " に送信されます"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "外部"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "外部 — ネットワークの外に出ます"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "ローカル — ネットワーク内にとどまります"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "ローカル"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " の "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " により外部で作成されました。"
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " により外部で作成されました。"
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " によりローカルで作成されました。リクエストはネットワーク内にとどまりました。"
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " はローカルと宣言されていますが、確認できませんでした。応答は "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " から返されました。"
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " の代わりに "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " が応答しました。リクエストの送信先は確認できませんでした。"
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " により作成されました。実行場所は確認できませんでした。"
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "AI コパイロットでマインドマップを作成"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2827,6 +3013,16 @@
       "value": "OAuth認証に失敗しました。もう一度お試しいただくか、別のサインイン方法をご利用ください。"
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " でサインイン"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3357,6 +3553,16 @@
       "value": "姓"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " で登録"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3677,26 +3883,6 @@
     {
       "type": 0,
       "value": "タイトルは必須です"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " でサインイン"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " で登録"
     }
   ]
 }

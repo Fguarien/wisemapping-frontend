@@ -66,6 +66,9 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
 import LabelDeleteConfirm from './maps-list/label-delete-confirm';
+import AppConfig from '../../classes/app-config';
+import CopilotDialog from './copilot-dialog';
+import LocalityBadge, { useLocalityText } from './copilot-dialog/locality-badge';
 import DrawerNav, { ToolbarButtonInfo } from './drawer-nav';
 import { trackMindmapListAction, trackPageView } from '../../utils/analytics';
 import { ClientContext } from '../../classes/provider/client-context';
@@ -120,6 +123,22 @@ const MapsPage = (): ReactElement => {
 
   const handleMindMapCopilotDialogClose = () => {
     setMindMapCopilotDialogOpen(false);
+  };
+
+  // Built-in copilot (an OpenAI-compatible endpoint configured on the server); when it is off,
+  // the button keeps opening the hosted ChatGPT copilot.
+  const copilotModels = AppConfig.isCopilotEnabled() ? AppConfig.getCopilotModels() : [];
+  const defaultCopilotModel = copilotModels[0];
+  const localityText = useLocalityText();
+  const [builtInCopilotOpen, setBuiltInCopilotOpen] = React.useState(false);
+
+  const handleCopilotButton = () => {
+    if (defaultCopilotModel) {
+      trackMindmapListAction('ai_copilot_builtin_open', 'mindmap_list_ai');
+      setBuiltInCopilotOpen(true);
+    } else {
+      handleMindMapCopilotDialogOpen();
+    }
   };
 
   const handleMindMapCopilotDialogContinue = () => {
@@ -338,10 +357,17 @@ const MapsPage = (): ReactElement => {
 
             <Tooltip
               arrow={true}
-              title={intl.formatMessage({
-                id: 'maps.copilot-tooltip',
-                defaultMessage: 'Start a mindmap with ChatGPT-powered AI Copilot',
-              })}
+              title={
+                defaultCopilotModel
+                  ? `${intl.formatMessage({
+                      id: 'copilot.tooltip',
+                      defaultMessage: 'Generate a mind map with the AI Copilot',
+                    })} · ${localityText(defaultCopilotModel.locality, defaultCopilotModel.provider)}`
+                  : intl.formatMessage({
+                      id: 'maps.copilot-tooltip',
+                      defaultMessage: 'Start a mindmap with ChatGPT-powered AI Copilot',
+                    })
+              }
             >
               <ToolbarButton
                 color="primary"
@@ -350,7 +376,18 @@ const MapsPage = (): ReactElement => {
                 type="button"
                 disableElevation={true}
                 startIcon={<SmartToyTwoTone />}
-                onClick={handleMindMapCopilotDialogOpen}
+                {...(defaultCopilotModel
+                  ? {
+                      endIcon: (
+                        <LocalityBadge
+                          locality={defaultCopilotModel.locality}
+                          provider={defaultCopilotModel.provider}
+                          compact
+                        />
+                      ),
+                    }
+                  : {})}
+                onClick={handleCopilotButton}
               >
                 <span className="message">
                   <FormattedMessage id="maps.copilot-button" defaultMessage="AI Copilot" />
@@ -385,6 +422,9 @@ const MapsPage = (): ReactElement => {
               mapsId={[]}
               fromEditor
             />
+            {builtInCopilotOpen && (
+              <CopilotDialog models={copilotModels} onClose={() => setBuiltInCopilotOpen(false)} />
+            )}
             <Dialog
               open={mindMapCopilotDialogOpen}
               onClose={handleMindMapCopilotDialogClose}

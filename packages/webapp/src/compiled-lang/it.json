@@ -2193,6 +2193,208 @@
       "value": "Per favore attendi..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "Descrivi la mappa mentale che desideri. L'IA la redige come nuova mappa, che potrai modificare in seguito."
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "Genera"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 0,
+      "value": "Invia a "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " e genera"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "Invia all'esterno e genera"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "Modello"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "Apri la mappa"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "Di cosa deve parlare la mappa?"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "Copilota IA"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "La generazione può richiedere fino a un minuto."
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "Esterno — inviato a "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "Esterno"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Esterno — esce dalla tua rete"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "Locale — resta nella tua rete"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "Locale"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 0,
+      "value": "Generato all'esterno da "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ", presso "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Generato all'esterno da "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 0,
+      "value": "Generato in locale da "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ": la tua richiesta è rimasta nella tua rete."
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " è dichiarato locale, ma non è stato possibile verificarlo: la risposta è arrivata da "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " è stato servito da "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " invece del modello previsto. Non è stato possibile verificare dove sia andata la tua richiesta."
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 0,
+      "value": "Generato da "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ". Non è stato possibile verificare dove sia stato eseguito."
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "Genera una mappa mentale con il Copilota IA"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2857,6 +3059,16 @@
       "value": "Autenticazione OAuth non riuscita. Riprova o usa un altro metodo di accesso."
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 0,
+      "value": "Accedi con "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3395,6 +3607,16 @@
       "value": "Cognome"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 0,
+      "value": "Registrati con "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3715,26 +3937,6 @@
     {
       "type": 0,
       "value": "Il titolo è obbligatorio"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 0,
-      "value": "Accedi con "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 0,
-      "value": "Registrati con "
-    },
-    {
-      "type": 1,
-      "value": "provider"
     }
   ]
 }

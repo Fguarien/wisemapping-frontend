@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "У відповіді на вхід немає ні коду, ні токена."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "Створити ментальну карту за допомогою ШІ-копілота"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "Локально — залишається у вашій мережі"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "Зовнішньо — надсилається до {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "Зовнішньо — залишає вашу мережу"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "Локально"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "Зовнішньо"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} заявлено як локальну, але це не вдалося перевірити: відповідь надійшла від {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "На запит до {model} відповіла {served} замість очікуваної моделі. Куди пішов ваш запит, перевірити не вдалося."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "Створено локально моделлю {served}: ваш запит залишився у вашій мережі."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "Створено зовнішньо моделлю {served} у {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "Створено зовнішньо моделлю {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "Створено моделлю {served}. Де вона працювала, перевірити не вдалося."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "ШІ-копілот"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "Відкрити карту"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "Створити"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "Надіслати до {provider} і створити"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "Надіслати назовні й створити"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "Опишіть потрібну ментальну карту. ШІ підготує її як нову карту, яку потім можна редагувати."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "Модель"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "Про що має бути карта?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "Створення може тривати до хвилини."
   }
 }

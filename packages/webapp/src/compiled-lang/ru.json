@@ -2223,6 +2223,212 @@
       "value": "Подождите..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "Опишите нужную интеллект-карту. ИИ подготовит её как новую карту, которую затем можно редактировать."
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "Создать"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 0,
+      "value": "Отправить в "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " и создать"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "Отправить вовне и создать"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "Модель"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "Открыть карту"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "О чём должна быть карта?"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "ИИ-копилот"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "Создание может занять до минуты."
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "Внешне — отправляется в "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "Внешне"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Внешне — покидает вашу сеть"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "Локально — остаётся в вашей сети"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "Локально"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 0,
+      "value": "Создано внешне моделью "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " у "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 0,
+      "value": "Создано внешне моделью "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 0,
+      "value": "Создано локально моделью "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ": ваш запрос остался в вашей сети."
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " заявлена как локальная, но это не удалось проверить: ответ пришёл от "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 0,
+      "value": "На запрос к "
+    },
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " ответила "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " вместо ожидаемой модели. Куда ушёл ваш запрос, проверить не удалось."
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 0,
+      "value": "Создано моделью "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ". Где она работала, проверить не удалось."
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "Создать интеллект-карту с помощью ИИ-копилота"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2917,6 +3123,16 @@
       "value": "Ошибка аутентификации OAuth. Пожалуйста, попробуйте ещё раз или выберите другой способ входа."
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 0,
+      "value": "Войти через "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3455,6 +3671,16 @@
       "value": "Фамилия"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 0,
+      "value": "Зарегистрироваться через "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3775,26 +4001,6 @@
     {
       "type": 0,
       "value": "Название обязательно"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 0,
-      "value": "Войти через "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 0,
-      "value": "Зарегистрироваться через "
-    },
-    {
-      "type": 1,
-      "value": "provider"
     }
   ]
 }

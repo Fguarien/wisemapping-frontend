@@ -20,6 +20,8 @@ import Client, {
   ErrorInfo,
   MapInfo,
   BasicMapInfo,
+  CopilotMapRequest,
+  CopilotMapResult,
   NewUser,
   Label,
   ChangeHistory,
@@ -539,6 +541,33 @@ export default class RestClient implements Client {
         .then((response) => {
           const mapId = Number.parseInt(response.headers['resourceid'], 10);
           success(mapId);
+        })
+        .catch((error) => {
+          const errorInfo = this.parseResponseOnError(error.response);
+          reject(errorInfo);
+        });
+    };
+    return new Promise(handler);
+  }
+
+  createMapWithCopilot(request: CopilotMapRequest): Promise<CopilotMapResult> {
+    const handler = (
+      success: (result: CopilotMapResult) => void,
+      reject: (error: ErrorInfo) => void,
+    ) => {
+      this.axios
+        .post(`${this.baseUrl}/api/restful/ai/copilot/maps`, request, {
+          headers: { 'Content-Type': 'application/json' },
+        })
+        .then((response) => {
+          // The backend sends null for an absent served model.
+          const { servedModel, ...result } = response.data as Omit<
+            CopilotMapResult,
+            'servedModel'
+          > & {
+            servedModel?: string | null;
+          };
+          success(servedModel ? { ...result, servedModel } : result);
         })
         .catch((error) => {
           const errorInfo = this.parseResponseOnError(error.response);

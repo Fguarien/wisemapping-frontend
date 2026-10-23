@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "サインインの応答にコードもトークンも含まれていませんでした。"
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "AI コパイロットでマインドマップを作成"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "ローカル — ネットワーク内にとどまります"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "外部 — {provider} に送信されます"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "外部 — ネットワークの外に出ます"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "ローカル"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "外部"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} はローカルと宣言されていますが、確認できませんでした。応答は {served} から返されました。"
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "{model} の代わりに {served} が応答しました。リクエストの送信先は確認できませんでした。"
+  },
+  "copilot.result.local": {
+    "defaultMessage": "{served} によりローカルで作成されました。リクエストはネットワーク内にとどまりました。"
+  },
+  "copilot.result.external": {
+    "defaultMessage": "{provider} の {served} により外部で作成されました。"
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "{served} により外部で作成されました。"
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "{served} により作成されました。実行場所は確認できませんでした。"
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "AI コパイロット"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "マップを開く"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "作成"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "{provider} に送信して作成"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "外部に送信して作成"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "作成したいマインドマップを説明してください。AI が新しいマップの下書きを作成し、後から編集できます。"
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "モデル"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "マップのテーマは何ですか？"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "作成には最大 1 分かかることがあります。"
   }
 }

@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "La réponse de connexion ne contenait ni code ni jeton."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "Générer une carte mentale avec le Copilote IA"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "Local — reste dans votre réseau"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "Externe — envoyé à {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "Externe — sort de votre réseau"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "Local"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "Externe"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} est déclaré local, mais cela n'a pas pu être vérifié : la réponse est venue de {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "{model} a été servi par {served} au lieu du modèle attendu. La destination de votre demande n'a pas pu être vérifiée."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "Généré en local par {served} : votre demande est restée dans votre réseau."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "Généré à l'extérieur par {served}, chez {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "Généré à l'extérieur par {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "Généré par {served}. Le lieu d'exécution n'a pas pu être vérifié."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "Copilote IA"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "Ouvrir la carte"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "Générer"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "Envoyer à {provider} et générer"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "Envoyer à l'extérieur et générer"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "Décrivez la carte mentale souhaitée. L'IA en rédige une nouvelle carte, que vous pourrez modifier ensuite."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "Modèle"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "Sur quoi doit porter la carte ?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "La génération peut prendre jusqu'à une minute."
   }
 }

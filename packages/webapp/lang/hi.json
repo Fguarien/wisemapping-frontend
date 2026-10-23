@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "साइन इन के उत्तर में कोई कोड या टोकन नहीं था।"
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "AI कोपायलट से माइंड मैप बनाएँ"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "स्थानीय — आपके नेटवर्क में रहता है"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "बाहरी — {provider} को भेजा जाता है"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "बाहरी — आपके नेटवर्क से बाहर जाता है"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "स्थानीय"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "बाहरी"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} को स्थानीय घोषित किया गया है, लेकिन इसकी पुष्टि नहीं हो सकी: उत्तर {served} से आया।"
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "{model} के बजाय {served} ने उत्तर दिया। आपका अनुरोध कहाँ गया, इसकी पुष्टि नहीं हो सकी।"
+  },
+  "copilot.result.local": {
+    "defaultMessage": "{served} द्वारा स्थानीय रूप से बनाया गया: आपका अनुरोध आपके नेटवर्क में ही रहा।"
+  },
+  "copilot.result.external": {
+    "defaultMessage": "{provider} पर {served} द्वारा बाहरी रूप से बनाया गया।"
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "{served} द्वारा बाहरी रूप से बनाया गया।"
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "{served} द्वारा बनाया गया। यह कहाँ चला, इसकी पुष्टि नहीं हो सकी।"
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "AI कोपायलट"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "मैप खोलें"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "बनाएँ"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "{provider} को भेजें और बनाएँ"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "बाहर भेजें और बनाएँ"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "आप जैसा माइंड मैप चाहते हैं उसका वर्णन करें। AI इसे एक नए मैप के रूप में तैयार करेगा, जिसे आप बाद में संपादित कर सकते हैं।"
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "मॉडल"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "मैप किस विषय पर होना चाहिए?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "बनाने में एक मिनट तक लग सकता है।"
   }
 }

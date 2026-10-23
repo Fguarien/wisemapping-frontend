@@ -20,6 +20,8 @@ import Client, {
   AuthenticationType,
   BasicMapInfo,
   ChangeHistory,
+  CopilotMapRequest,
+  CopilotMapResult,
   ImportMapInfo,
   Label,
   MapInfo,
@@ -32,6 +34,7 @@ import Client, {
 } from '..';
 import { LocaleCode, localeFromStr } from '../../app-i18n';
 import JwtTokenConfig from '../../jwt-token-config';
+import AppConfig from '../../app-config';
 import { setAnalyticsUserEmail, clearAnalyticsUserId } from '../../../utils/analytics';
 import { appLogger as log } from '../../../utils/logger';
 
@@ -378,6 +381,35 @@ class MockClient implements Client {
     };
     this.maps.push(newMap);
     return Promise.resolve(newMap.id);
+  }
+
+  // Answers like the server would, after a pause long enough to see the progress state.
+  createMapWithCopilot(request: CopilotMapRequest): Promise<CopilotMapResult> {
+    const models = AppConfig.getCopilotModels();
+    const model = models.find((m) => m.id === request.model) ?? models[0];
+    if (!model) {
+      return Promise.reject({
+        msg: 'The AI copilot is not available on this server.',
+        status: 404,
+      });
+    }
+    return this.createMap({ title: request.prompt.slice(0, 60) }).then(
+      (id) =>
+        new Promise<CopilotMapResult>((resolve) =>
+          setTimeout(
+            () =>
+              resolve({
+                id,
+                title: request.prompt.slice(0, 60),
+                model,
+                servedModel: `${model.id}-served`,
+                actualLocality: model.locality,
+                routingWarning: false,
+              }),
+            1500,
+          ),
+        ),
+    );
   }
 
   fetchLabels(): Promise<Label[]> {

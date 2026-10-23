@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "La risposta di accesso non conteneva né un codice né un token."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "Genera una mappa mentale con il Copilota IA"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "Locale — resta nella tua rete"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "Esterno — inviato a {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "Esterno — esce dalla tua rete"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "Locale"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "Esterno"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} è dichiarato locale, ma non è stato possibile verificarlo: la risposta è arrivata da {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "{model} è stato servito da {served} invece del modello previsto. Non è stato possibile verificare dove sia andata la tua richiesta."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "Generato in locale da {served}: la tua richiesta è rimasta nella tua rete."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "Generato all'esterno da {served}, presso {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "Generato all'esterno da {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "Generato da {served}. Non è stato possibile verificare dove sia stato eseguito."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "Copilota IA"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "Apri la mappa"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "Genera"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "Invia a {provider} e genera"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "Invia all'esterno e genera"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "Descrivi la mappa mentale che desideri. L'IA la redige come nuova mappa, che potrai modificare in seguito."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "Modello"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "Di cosa deve parlare la mappa?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "La generazione può richiedere fino a un minuto."
   }
 }

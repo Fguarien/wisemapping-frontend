@@ -16,7 +16,7 @@
  *   limitations under the License.
  */
 
-import Client from '../client';
+import Client, { CopilotModel } from '../client';
 import RestClient from '../client/rest-client';
 import AdminClient, { AdminClientInterface } from '../client/admin-client';
 import { appLogger as log } from '../../utils/logger';
@@ -42,6 +42,8 @@ type Config = {
   oidcOauth2Url?: string;
   oidcOauth2Enabled?: boolean;
   oidcOauth2Label?: string;
+  copilotEnabled?: boolean;
+  copilotModels?: CopilotModel[];
   jwtExpirationMin: number;
 };
 
@@ -224,6 +226,18 @@ class AppConfig {
   static getOidcOauth2Label(): string {
     const config = this.fetchOrGetConfig();
     return config.oidcOauth2Label || 'Single Sign-On';
+  }
+
+  // The built-in copilot; when it is off the maps page links to the hosted one. A page rendered
+  // before the configuration is loaded (tests, error pages) sees it off rather than failing.
+  static isCopilotEnabled(): boolean {
+    const config = this._config;
+    return (config?.copilotEnabled ?? false) && (config?.copilotModels?.length ?? 0) > 0;
+  }
+
+  // Models offered by the built-in copilot, the default first.
+  static getCopilotModels(): CopilotModel[] {
+    return this._config?.copilotModels ?? [];
   }
 
   static getClient(): Client {

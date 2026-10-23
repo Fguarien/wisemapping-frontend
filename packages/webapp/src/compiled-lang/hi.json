@@ -2193,6 +2193,192 @@
       "value": "कृपया प्रतीक्षा करें..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "आप जैसा माइंड मैप चाहते हैं उसका वर्णन करें। AI इसे एक नए मैप के रूप में तैयार करेगा, जिसे आप बाद में संपादित कर सकते हैं।"
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "बनाएँ"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " को भेजें और बनाएँ"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "बाहर भेजें और बनाएँ"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "मॉडल"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "मैप खोलें"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "मैप किस विषय पर होना चाहिए?"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "AI कोपायलट"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "बनाने में एक मिनट तक लग सकता है।"
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "बाहरी — "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " को भेजा जाता है"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "बाहरी"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "बाहरी — आपके नेटवर्क से बाहर जाता है"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "स्थानीय — आपके नेटवर्क में रहता है"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "स्थानीय"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " पर "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " द्वारा बाहरी रूप से बनाया गया।"
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " द्वारा बाहरी रूप से बनाया गया।"
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " द्वारा स्थानीय रूप से बनाया गया: आपका अनुरोध आपके नेटवर्क में ही रहा।"
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " को स्थानीय घोषित किया गया है, लेकिन इसकी पुष्टि नहीं हो सकी: उत्तर "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " से आया।"
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " के बजाय "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " ने उत्तर दिया। आपका अनुरोध कहाँ गया, इसकी पुष्टि नहीं हो सकी।"
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " द्वारा बनाया गया। यह कहाँ चला, इसकी पुष्टि नहीं हो सकी।"
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "AI कोपायलट से माइंड मैप बनाएँ"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2853,6 +3039,16 @@
       "value": "OAuth प्रमाणीकरण विफल रहा। कृपया फिर से प्रयास करें या साइन इन का कोई अन्य तरीका उपयोग करें।"
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " से साइन इन करें"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3391,6 +3587,16 @@
       "value": "अंतिम नाम"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " से साइन अप करें"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3711,26 +3917,6 @@
     {
       "type": 0,
       "value": "शीर्षक आवश्यक है"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " से साइन इन करें"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 1,
-      "value": "provider"
-    },
-    {
-      "type": 0,
-      "value": " से साइन अप करें"
     }
   ]
 }

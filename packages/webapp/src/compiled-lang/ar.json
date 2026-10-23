@@ -2243,6 +2243,216 @@
       "value": "يرجى الانتظار..."
     }
   ],
+  "copilot.dialog.description": [
+    {
+      "type": 0,
+      "value": "صف الخريطة الذهنية التي تريدها. سيصوغها الذكاء الاصطناعي كخريطة جديدة يمكنك تعديلها لاحقًا."
+    }
+  ],
+  "copilot.dialog.generate": [
+    {
+      "type": 0,
+      "value": "إنشاء"
+    }
+  ],
+  "copilot.dialog.generate-external": [
+    {
+      "type": 0,
+      "value": "أرسل إلى "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": " وأنشئ"
+    }
+  ],
+  "copilot.dialog.generate-external-unnamed": [
+    {
+      "type": 0,
+      "value": "أرسل إلى الخارج وأنشئ"
+    }
+  ],
+  "copilot.dialog.model": [
+    {
+      "type": 0,
+      "value": "النموذج"
+    }
+  ],
+  "copilot.dialog.open-map": [
+    {
+      "type": 0,
+      "value": "افتح الخريطة"
+    }
+  ],
+  "copilot.dialog.prompt": [
+    {
+      "type": 0,
+      "value": "عن ماذا يجب أن تكون الخريطة؟"
+    }
+  ],
+  "copilot.dialog.title": [
+    {
+      "type": 0,
+      "value": "مساعد الذكاء الاصطناعي"
+    }
+  ],
+  "copilot.dialog.wait-hint": [
+    {
+      "type": 0,
+      "value": "قد يستغرق الإنشاء ما يصل إلى دقيقة."
+    }
+  ],
+  "copilot.locality.external": [
+    {
+      "type": 0,
+      "value": "خارجي — يُرسل إلى "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
+  "copilot.locality.external-short": [
+    {
+      "type": 0,
+      "value": "خارجي"
+    }
+  ],
+  "copilot.locality.external-unnamed": [
+    {
+      "type": 0,
+      "value": "خارجي — يغادر شبكتك"
+    }
+  ],
+  "copilot.locality.local": [
+    {
+      "type": 0,
+      "value": "محلي — يبقى داخل شبكتك"
+    }
+  ],
+  "copilot.locality.local-short": [
+    {
+      "type": 0,
+      "value": "محلي"
+    }
+  ],
+  "copilot.result.external": [
+    {
+      "type": 0,
+      "value": "أُنشئت خارجيًا بواسطة "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " لدى "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.external-unnamed": [
+    {
+      "type": 0,
+      "value": "أُنشئت خارجيًا بواسطة "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.local": [
+    {
+      "type": 0,
+      "value": "أُنشئت محليًا بواسطة "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ": بقي طلبك داخل شبكتك."
+    }
+  ],
+  "copilot.result.local-unverified": [
+    {
+      "type": 0,
+      "value": "تم الإعلان عن "
+    },
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " كنموذج محلي، لكن تعذّر التحقق من ذلك: جاء الرد من "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "copilot.result.served-elsewhere": [
+    {
+      "type": 0,
+      "value": "أجاب "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": " بدلاً من "
+    },
+    {
+      "type": 1,
+      "value": "model"
+    },
+    {
+      "type": 0,
+      "value": " المتوقع. تعذّر التحقق من وجهة طلبك."
+    }
+  ],
+  "copilot.result.unverified": [
+    {
+      "type": 0,
+      "value": "أُنشئت بواسطة "
+    },
+    {
+      "type": 1,
+      "value": "served"
+    },
+    {
+      "type": 0,
+      "value": ". تعذّر التحقق من مكان تشغيله."
+    }
+  ],
+  "copilot.tooltip": [
+    {
+      "type": 0,
+      "value": "أنشئ خريطة ذهنية باستخدام مساعد الذكاء الاصطناعي"
+    }
+  ],
   "create.button": [
     {
       "type": 0,
@@ -2950,6 +3160,16 @@
       "value": "فشلت مصادقة OAuth. يرجى المحاولة مرة أخرى أو استخدام طريقة تسجيل دخول مختلفة."
     }
   ],
+  "login.oidc.button": [
+    {
+      "type": 0,
+      "value": "سجّل الدخول باستخدام "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "login.page-title": [
     {
       "type": 0,
@@ -3488,6 +3708,16 @@
       "value": "اسم العائلة"
     }
   ],
+  "registration.oidc.button": [
+    {
+      "type": 0,
+      "value": "أنشئ حسابًا باستخدام "
+    },
+    {
+      "type": 1,
+      "value": "provider"
+    }
+  ],
   "registration.page-title": [
     {
       "type": 0,
@@ -3808,26 +4038,6 @@
     {
       "type": 0,
       "value": "العنوان مطلوب"
-    }
-  ],
-  "login.oidc.button": [
-    {
-      "type": 0,
-      "value": "سجّل الدخول باستخدام "
-    },
-    {
-      "type": 1,
-      "value": "provider"
-    }
-  ],
-  "registration.oidc.button": [
-    {
-      "type": 0,
-      "value": "أنشئ حسابًا باستخدام "
-    },
-    {
-      "type": 1,
-      "value": "provider"
     }
   ]
 }

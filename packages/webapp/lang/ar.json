@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "لم تتضمن استجابة تسجيل الدخول رمزًا ولا توكن."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "أنشئ خريطة ذهنية باستخدام مساعد الذكاء الاصطناعي"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "محلي — يبقى داخل شبكتك"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "خارجي — يُرسل إلى {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "خارجي — يغادر شبكتك"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "محلي"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "خارجي"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "تم الإعلان عن {model} كنموذج محلي، لكن تعذّر التحقق من ذلك: جاء الرد من {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "أجاب {served} بدلاً من {model} المتوقع. تعذّر التحقق من وجهة طلبك."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "أُنشئت محليًا بواسطة {served}: بقي طلبك داخل شبكتك."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "أُنشئت خارجيًا بواسطة {served} لدى {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "أُنشئت خارجيًا بواسطة {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "أُنشئت بواسطة {served}. تعذّر التحقق من مكان تشغيله."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "مساعد الذكاء الاصطناعي"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "افتح الخريطة"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "إنشاء"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "أرسل إلى {provider} وأنشئ"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "أرسل إلى الخارج وأنشئ"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "صف الخريطة الذهنية التي تريدها. سيصوغها الذكاء الاصطناعي كخريطة جديدة يمكنك تعديلها لاحقًا."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "النموذج"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "عن ماذا يجب أن تكون الخريطة؟"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "قد يستغرق الإنشاء ما يصل إلى دقيقة."
   }
 }

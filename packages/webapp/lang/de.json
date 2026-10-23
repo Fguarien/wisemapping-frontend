@@ -1669,5 +1669,68 @@
   },
   "oauth.missing-code": {
     "defaultMessage": "Die Anmeldeantwort enthielt weder einen Code noch ein Token."
+  },
+  "copilot.tooltip": {
+    "defaultMessage": "Mindmap mit dem KI-Copiloten erstellen"
+  },
+  "copilot.locality.local": {
+    "defaultMessage": "Lokal — bleibt in deinem Netzwerk"
+  },
+  "copilot.locality.external": {
+    "defaultMessage": "Extern — gesendet an {provider}"
+  },
+  "copilot.locality.external-unnamed": {
+    "defaultMessage": "Extern — verlässt dein Netzwerk"
+  },
+  "copilot.locality.local-short": {
+    "defaultMessage": "Lokal"
+  },
+  "copilot.locality.external-short": {
+    "defaultMessage": "Extern"
+  },
+  "copilot.result.local-unverified": {
+    "defaultMessage": "{model} ist als lokal angegeben, das konnte aber nicht überprüft werden: Die Antwort kam von {served}."
+  },
+  "copilot.result.served-elsewhere": {
+    "defaultMessage": "{model} wurde von {served} statt vom erwarteten Modell beantwortet. Wohin deine Anfrage ging, konnte nicht überprüft werden."
+  },
+  "copilot.result.local": {
+    "defaultMessage": "Lokal erstellt von {served}: Deine Anfrage ist in deinem Netzwerk geblieben."
+  },
+  "copilot.result.external": {
+    "defaultMessage": "Extern erstellt von {served}, bei {provider}."
+  },
+  "copilot.result.external-unnamed": {
+    "defaultMessage": "Extern erstellt von {served}."
+  },
+  "copilot.result.unverified": {
+    "defaultMessage": "Erstellt von {served}. Wo es lief, konnte nicht überprüft werden."
+  },
+  "copilot.dialog.title": {
+    "defaultMessage": "KI-Copilot"
+  },
+  "copilot.dialog.open-map": {
+    "defaultMessage": "Mindmap öffnen"
+  },
+  "copilot.dialog.generate": {
+    "defaultMessage": "Erstellen"
+  },
+  "copilot.dialog.generate-external": {
+    "defaultMessage": "An {provider} senden und erstellen"
+  },
+  "copilot.dialog.generate-external-unnamed": {
+    "defaultMessage": "Nach außen senden und erstellen"
+  },
+  "copilot.dialog.description": {
+    "defaultMessage": "Beschreibe die gewünschte Mindmap. Die KI entwirft sie als neue Mindmap, die du anschließend bearbeiten kannst."
+  },
+  "copilot.dialog.model": {
+    "defaultMessage": "Modell"
+  },
+  "copilot.dialog.prompt": {
+    "defaultMessage": "Worum soll es in der Mindmap gehen?"
+  },
+  "copilot.dialog.wait-hint": {
+    "defaultMessage": "Die Erstellung kann bis zu einer Minute dauern."
   }
 }

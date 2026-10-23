@@ -68,6 +68,7 @@ const SAME_AS_ENGLISH: Record<string, string[]> = {
   'admin.user-info.status': ['de', 'pt'],
   'changepwd.password': ['it'],
   'common.email': ['it'],
+  'copilot.locality.local-short': ['es', 'fr', 'pt'],
   'footer.col-community': ['de'],
   'footer.col-support': ['de'],
   'footer.copyright': locales,

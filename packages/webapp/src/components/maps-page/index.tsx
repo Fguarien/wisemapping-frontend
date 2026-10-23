@@ -378,12 +378,15 @@ const MapsPage = (): ReactElement => {
                 startIcon={<SmartToyTwoTone />}
                 {...(defaultCopilotModel
                   ? {
+                      // Wrapped: MUI sizes the first child of the end-icon slot as an icon (20px).
                       endIcon: (
-                        <LocalityBadge
-                          locality={defaultCopilotModel.locality}
-                          provider={defaultCopilotModel.provider}
-                          compact
-                        />
+                        <span>
+                          <LocalityBadge
+                            locality={defaultCopilotModel.locality}
+                            provider={defaultCopilotModel.provider}
+                            compact
+                          />
+                        </span>
                       ),
                     }
                   : {})}

@@ -1,0 +1,9 @@
+NOTICE
+
+Ce dépôt est une copie de https://github.com/wisemapping/wisemapping-frontend (code de tiers).
+Il n'est PAS publié sous une licence de Frédéric Guariento.
+
+Licence de l'amont, telle qu'il la déclare :
+  WiseMapping Open License, Version 1.0 — README.md de l'amont ; package.json "license": "http://www.wisemapping.org/license" ; packages/webapp : MIT
+
+Les modifications éventuelles apportées ici suivent la même licence.

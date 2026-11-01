@@ -57,6 +57,7 @@ import { ClientContext } from './classes/provider/client-context';
 import { KeyboardContext, useKeyboardContextValue } from './classes/provider/keyboard-context';
 import CommonPage from './components/common-page';
 import Redirect from './components/redirect';
+import PoweredByBadge from './components/layout/powered-by-badge';
 import AppConfig from './classes/app-config';
 import { useFetchAccount } from './classes/middleware';
 
@@ -147,6 +148,7 @@ const buildRouter = () =>
         element={
           <IntlProviderWrapper>
             <Outlet />
+            <PoweredByBadge />
           </IntlProviderWrapper>
         }
       >

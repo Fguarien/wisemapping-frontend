@@ -41,7 +41,8 @@ const Badge = styled('a')({
   backgroundColor: 'rgba(0, 0, 0, 0.55)',
   lineHeight: 0,
   '& img': { height: '20px', width: 'auto' },
-  'body:has([data-canvas-inset="bottom"]) &': { display: 'none' },
+  // Only the creator pane carries the logo link; the floating toolbars share the inset attribute.
+  'body:has([data-canvas-inset="bottom"] > a[href*="wisemapping.com"]) &': { display: 'none' },
   '@media print': { position: 'absolute' },
 });
 
